@@ -1,7 +1,6 @@
 <section class="orders-show">
 
   <header class="page-header">
-  <%raise @order.inspect%>
     <h1>Order #<%=@order.id %></h1>
     Order Total:<%=number_to_currency(@order.total_cents / 100)%>
     <div>
@@ -44,25 +43,3 @@
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
 
 </section>
-
-  <%# def change
-    create_table :line_items do |t|
-      t.references :order, index: true, foreign_key: true
-      t.references :product, index: true, foreign_key: true
-      t.integer :quantity
-      t.integer :item_price_cents
-      t.integer :total_price_cents
-
-      t.timestamps null: false
-    end
-
-  def change
-    create_table :products do |t|
-      t.string :name
-      t.text :description
-      t.string :image
-      t.integer :price_cents
-      t.integer :quantity
-
-      t.timestamps null: false
-    end %>
