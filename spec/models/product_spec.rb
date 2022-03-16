@@ -1,15 +1,15 @@
-require 'rails_helper'
+# require 'rails_helper'
 
-RSpec.describe Product, type: :model do
+# RSpec.describe Product, type: :model do
 
-  describe 'Validations' do
-    it "product should include name" do
-      @category = Category.new(name: "Test")
-      @product = Product.new(name: nil, price_cents: 5000, quantity: 20, category: @category)
-      puts @product.errors.full_messages
-      expect(@product).to be_valid
+#   describe 'Validations' do
+#     it "product should include name" do
+#       @category = Category.new(name: "Test")
+#       @product = Product.new(name: nil, price_cents: 5000, quantity: 20, category: @category)
+#       puts @product.errors.full_messages
+#       expect(@product).to be_valid
       
-    end
+#     end
 
     # it "product should include price" do
     #   @category = Category.new
@@ -32,8 +32,8 @@ RSpec.describe Product, type: :model do
     # it "should save successfully" do
     #   expect(@product.save).to 
 
-  end
-end
+#   end
+# end
 
 # Each example (it) is run in isolation of others. Therefore each example will needs its own @category created and then @product initialized with that category
     # Is the way I did it okay? ("before")
