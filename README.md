@@ -38,10 +38,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Final Product
 
-!["Screenshot of the main page"]()
+!["Screenshot of the main page"](https://github.com/FemmeSTEMGem/jungle-rails/blob/master/docs/main-page.PNG)
 
-!["Screenshot of the details page"]()
+!["Screenshot of the details page"](https://github.com/FemmeSTEMGem/jungle-rails/blob/master/docs/details-page.PNG)
 
-!["Screenshot the Admin Dashboard"]()
+!["Screenshot the Admin Dashboard"](https://github.com/FemmeSTEMGem/jungle-rails/blob/master/docs/admin-page.PNG)
 
-!["Screenshot the cart page"]()
+!["Screenshot the cart page"](https://github.com/FemmeSTEMGem/jungle-rails/blob/master/docs/cart-page.PNG)
