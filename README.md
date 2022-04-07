@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of learning Rails through exposure and practice. It's meant to simulate inheriting an existing code base in a language/framework that you are not comfortable with and designing/adding features to it.
+A mini e-commerce application built with Rails 4.2 for purposes of learning Rails through exposure and practice. Built as a project for the Lighthouse Labs' Web Development Program, it's meant to simulate inheriting an existing code base in a language/framework that you are not comfortable with and designing/adding features to it. 
 
 ## High-level Goals
 * Become familiar with Ruby and the Rails framework
